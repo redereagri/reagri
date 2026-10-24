@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Mapa da rede – REAGRI</title>
+<meta name="description" content="Rede de Pesquisas sobre Regiões Agrícolas (REAGRI) – grupo de pesquisa certificado pelo CNPq, sediado na UECE.">
+<link rel="icon" href="assets/img/favicon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,600;1,6..72,400&family=Inter+Tight:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
+<link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body data-page="mapa">
+<div class="wrap">
+<header id="site-header"></header>
+<main id="conteudo">
+<section class="page-head">
+  <div class="kicker">Onde a rede está</div>
+  <h1 class="display" style="margin-top:12px">Mapa da rede</h1>
+  <p class="lead" style="margin-top:24px">Instituições que integram a REAGRI. Clique em um ponto ou na lista para ver os detalhes.</p>
+</section>
+<section class="section split" style="padding-top:0;border-top:0">
+  <div class="main"><div id="mapa" role="region" aria-label="Mapa das instituições da rede"></div></div>
+  <div class="side"><h2 class="kicker" style="margin-bottom:10px">Instituições</h2><ul class="map-list" id="lista-inst"></ul></div>
+</section>
+</main>
+<footer id="site-footer"></footer>
+</div>
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+<script src="assets/js/data.js"></script>
+<script src="assets/js/main.js"></script>
+</body>
+</html>
